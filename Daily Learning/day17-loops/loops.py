@@ -27,3 +27,22 @@ for i in range(1000,599,-1):
     print(i)
 
 
+# while loop
+a = 100
+while a<1000:
+    print(a)
+# this is a infinite while loop , cuz it dont have any breaking statement
+# where infinite while loop is used ?
+
+Savedpassword = "6328@tyel-7373#hshs"
+password = input("Enter old password :")
+while(password != Savedpassword):
+    print ("Password didnt match , try again")
+    password = input("Enter the correct password :")
+
+# while loop
+a = 100
+while a<105:
+    print(a)
+    a = a+1
+
