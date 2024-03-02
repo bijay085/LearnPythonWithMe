@@ -1,0 +1,7 @@
+# 1st step : open chrome download interpreter "python"
+-> Dont forgot to click on set path while installing python interpreter
+
+# 2nd step : download Visual Studio code or pycharm
+-> if you download vs code just install python related extension for better experience.
+
+# 3rd step : Bring a new copy and pen 
