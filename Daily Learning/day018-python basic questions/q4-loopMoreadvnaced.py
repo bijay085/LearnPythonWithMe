@@ -10,3 +10,14 @@
 # * * *
 # * * * *
 # * * * * *
+
+# 11) strong number
+# -> 145 = 1! + 4! + 5! = 145
+
+# factorial code
+# -> 2! = 2 , 3! = 3*2*1 , 4!=4*3*1
+a = int(input("ENter number :"))
+facto = 1
+for i in range(a,0,-1):
+    facto = facto * i
+print(facto)
