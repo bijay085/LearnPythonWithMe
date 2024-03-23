@@ -30,11 +30,11 @@ while True:
     if user_guess == number:
         print("Congratulations! You guessed it correctly!")
         break
+    
+    elif user_guess > number:
+        print(f"Your guess {user_guess} is above the number. Try a smaller number.")
     else:
-        if user_guess > number:
-            print(f"Your guess {user_guess} is above the number. Try a smaller number.")
-        else:
-            print(f"Your guess {user_guess} is below the number. Try a larger number.")
+        print(f"Your guess {user_guess} is below the number. Try a larger number.")
         
 # Display the number of guesses taken and the correct number
 print(f"You guessed the correct number {number} in {guesses} attempts!")
